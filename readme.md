@@ -1,12 +1,6 @@
-# LangSmith Basics
+# LangChain and LangSmith Basics
 
-This is a beginner project built using **LangChain** and **OpenAI**.
-
-## Features
-
-- Accepts user input
-- Generates AI responses using OpenAI
-- Tracks execution using LangSmith
+A beginner LangChain project that accepts a user question, sends it to an OpenAI model, and displays the AI-generated answer.
 
 ## Technologies Used
 
@@ -14,25 +8,16 @@ This is a beginner project built using **LangChain** and **OpenAI**.
 - LangChain
 - OpenAI
 - LangSmith
-- python-dotenv
 
-## Files
+## Features
 
-- `langsmith_basics.py` - Main Python program
-- `requirements.txt` - Required Python packages
-- `.env` - Stores API keys
-- `.gitignore` - Files ignored by Git
-- `README.md` - Project information
+- User input
+- Prompt Template
+- ChatOpenAI
+- Output Parser
+- LangSmith tracing
 
-## Run the Project
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the program:
+## Run
 
 ```bash
 python langsmith_basics.py
